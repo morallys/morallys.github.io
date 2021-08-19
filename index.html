@@ -5,28 +5,78 @@
 
     <link rel="sortcut icon" href="images/heisenberg.png" type="image/x-icon" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
     <title>Hello World, Morallys</title>
+
+    <style>
+        body {            
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.4em;
+        }
+
+        .picture {
+            border-radius: 25%;
+        }
+        /*Menu suspenso*/
+        #menu {
+            padding: 0px;
+            margin: 0px;
+            background-color: #ededed;
+            list-style: none;
+        }
+
+        #menu ul li {
+
+            display: inline;
+        }
+
+        #menu ul li a{
+            padding: 2px 10px;
+            display: inline-block;
+
+            /*visual do link*/
+            background-color: #EDEDED;
+            color: #333;
+            text-decoration: none;
+            border-bottom: 3px solid #EDEDED;
+        }
+
+        #menu ul li a:hover {
+            background-color: #d6d6d6;
+            color: #6d6d6d;
+            border-bottom: 3px solid #ea0000a2;
+
+        }
+
+    </style>
 
 </head>
 <body>
     <!-- Início -->       
     <h1 id="topo">Olá, eu sou Juan Morallys.</h1> 
 
-    <nav>
+    <nav id="menu">
         <ul>        
             <li>
-                <a href="#atualmente">_Atualmente_</a>
+                <a href="#atualmente">Atualmente</a>
             </li>
             <li>
-                <a href="#sobre">_Sobre Mim_</a>
+                <a href="#sobre">Sobre Mim</a>
             </li>
             <li>
-                <a href="#links">_Links Redes_</a>
+                <a href="#links">Links Redes</a>
             </li>
         </ul>
-    </nav>    
+    </nav>
 
-    <img src="images/2021-08-18_21-53.png" alt="Juan - Ponta Negra, Natal-RN"> <br>
+    <img class="picture" src="images/2021-08-18_21-53.png" alt="Juan - Ponta Negra, Natal-RN"> <br>
 
     <hr>    
 
