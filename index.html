@@ -14,63 +14,81 @@
 
 </head>
 <body>
-    <!-- Início -->       
-    <h1 id="topo">Olá, eu sou Juan Morallys.</h1> 
+    <!-- Início -->      
+    <div class="header">
+        <div>
+            <h1>Olá, eu sou Juan Morallys.</h1> 
+        </div>
 
-    <nav id="menu">
-        <ul>        
-            <li>
-                <a href="#atualmente">Atualmente</a>
-            </li>
-            <li>
-                <a href="#sobre">Sobre Mim</a>
-            </li>
-            <li>
-                <a href="#habilidades">Habilidades</a>
-            </li>
-            <li>
-                <a href="#links">Links Redes</a>
-            </li>
-        </ul>
-    </nav>
+        <div class="menu-suspenso">
+            <nav class="menu">
+                <ul>        
+                    <li>
+                        <!-- <a href="#sobre">Sobre Mim</a> -->
+                        <a href="/sobre.html">Sobre Mim</a>
+                    </li>
+                    <!-- <li> 
+                        <a href="#habilidades">Habilidades</a>
+                    </li> -->
+                    <li>
+                        <a href="/redes.html">Links Redes</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-image">
+            <img src="images/2021-08-18_21-53.png" alt="Juan - Ponta Negra, Natal-RN">       
+        </div>
+        <div class="header-text">
+            <p>Iniciando definitivamente no mundo da programação, sou estudante do curso <strong>'Desenvolvedor de Software FullStack'</strong> na Trybe. <br> Ao decorrer do curso, irei atualizando o portfólio com os projetos realizados.</p>
+        </div>        
+    </div>
 
-    <img class="picture" src="images/2021-08-18_21-53.png" alt="Juan - Ponta Negra, Natal-RN"> <br>
+    <!-- <hr>     -->
 
-    <hr>    
+    <div class="atualy">
+        <!-- <h3 id="atualmente">Atualmente </a> </h3> -->
+        <!-- <img class="picture-trybe" src="https://media-exp3.licdn.com/dms/image/C4D16AQHQDrl2lKk9qw/profile-displaybackgroundimage-shrink_350_1400/0/1626217061418?e=1631750400&v=beta&t=weA9TzDy7ab0NORrlH1va_uskagtCcKL6WQZr4lwg0w" alt="Logo Trybe" width="580">         -->
 
-    <!-- Atualmente -->
-    <h3 id="atualmente">Atualmente </a> </h3>
-    <img class="picture-trybe" src="https://media-exp3.licdn.com/dms/image/C4D16AQHQDrl2lKk9qw/profile-displaybackgroundimage-shrink_350_1400/0/1626217061418?e=1631750400&v=beta&t=weA9TzDy7ab0NORrlH1va_uskagtCcKL6WQZr4lwg0w" alt="Logo Trybe" width="580">    
-    
-    <p>Iniciando definitivamente no mundo da programação, sou estudante do curso <strong>'Desenvolvedor de Software FullStack'</strong> na Trybe. <br> Ao decorrer do curso, irei atualizando o portfólio com os projetos realizados.</p>
+        
+    </div>  
     <hr>
+
 
     <!-- Sobre mim -->
-    <h3 id="sobre">Sobre mim</h3>
-    <ul>
-        <li> <em> Potiguar de nascimento, nasci em Natal-RN, Brasil</em></li>        
-        <li><em>Já cursei na Federal do RN [UFRN] a graduação em TI, não finalizada por enquanto</em></li>
-        <li><em>Experienciei por um breve período ser Desenvolvedor SQL em uma empresa que desenvolve Software para Escolas</em></li>
-        <li><em>Fã de Breaking Bad e System of a Down</em></li>
-        <li><em>Tentando aprender violão nas horas vagas =p</em></li>
-        
-    </ul>
-    <hr>
+    <div>
+        <h3 id="sobre">Sobre mim</h3>
+        <ul>
+            <li> <em> Potiguar de nascimento, nasci em Natal-RN, Brasil</em></li>        
+            <li><em>Já cursei na Federal do RN [UFRN] a graduação em TI, não finalizada por enquanto</em></li>
+            <li><em>Experienciei por um breve período ser Desenvolvedor SQL em uma empresa que desenvolve Software para Escolas</em></li>
+            <li><em>Fã de Breaking Bad e System of a Down</em></li>
+            <li><em>Tentando aprender violão nas horas vagas =p</em></li>
+            
+        </ul>
+    </div>
     <!--  <h3 id="habilidades">Habilidades</h3>
 
         <p>......</p>
 
     <hr>-->
+    
     <!-- Links para minhas redes -->
-    <h3 id="links">Links para minhas redes</h3>
-   <!-- <div class="links">-->
-        <iframe class="link-rede" src="https://ghbtns.com/github-btn.html?user=morallys&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="230" height="30" title="GitHub"></iframe>
-        <a class="link-rede" href="https://www.linkedin.com/in/juanmorallys/" target="_blank"> <img src="/images/pngegg.png" alt="Follow on LinkedIn" width="100" height="35"> </a>
-    <!--  </div>-->
-    <br><br>
+    <div class="network">
+        <h3 id="links">Links para minhas redes</h3>
+        <div class="network-button">
+            <iframe class="link-rede" src="https://ghbtns.com/github-btn.html?user=morallys&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="230" height="30" title="GitHub"></iframe>
+        </div>
+        <div class="network-button">
+            <a class="link-rede" href="https://www.linkedin.com/in/juanmorallys/" target="_blank"> <img src="/images/pngegg.png" alt="Follow on LinkedIn" width="100" height="35"> </a> 
+        </div>
+    </div>
+    
     <hr>
-    <br>
-     <a class="button links" href="#topo">Início da página</a>   
+
+    <div class="button">
+        <a href="#topo">Início da página</a> 
+    </div>
 </body>
 </html>
 

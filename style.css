@@ -1,11 +1,7 @@
 body {          
-    background-color: #494747;  
+    background-color: #665e5e;  
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
-}
-h1 {
-    font-family: 'Relaway', sans-serif;
-    text-align: center;
 }
 
 h3 {
@@ -18,28 +14,69 @@ nav {
     text-align: center;
 }
 
-
-
-p {
-    line-height: 1.4em;
+.header {
+    font-family: 'Relaway', sans-serif;
 }
 
+.header h1 {
+    font-size: 30px;
+    font-family: 'Relaway', sans-serif;
+    text-align: auto;
+}
+
+.header img {
+    border-radius: 100%;
+    margin: 20px 70px;
+    max-width: 30%;
+}
+
+.header-image {
+    display: inline-block;
+}
+
+
 .button {
-    background-color: #5a75a4;
+
     border-radius: 4px;    
     color: #fff;    
-    padding: 10px 20px;    
+    padding: 10px 30px;    
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 20px;
     font-weight: 700px;
 }
 
-.picture {
-    border-radius: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto     
+.button a {
+    border-radius: 10px;
+    display: inline-block;  
+    padding: 15px; 
+
+    border-bottom: 5px solid #edf0f5;
+    background-color: #637bad;
+    color: #edf0f5;
+    text-decoration: none;      
+}
+
+.button a:hover {
+    border-bottom: 3px solid #081352a2;
+    background-color: #d6d6d6;
+    color: #6d6d6d;   
+}
+
+.network {
+    padding: 50 px 30px;
+}
+
+.network-button {
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+    float: left;
+   /* align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;*/
 }
 
 .picture-trybe {
@@ -48,21 +85,23 @@ p {
     margin-left: auto;
     margin-right: auto     
 }
+
+
 /*Menu suspenso*/
-#menu {
-    background-color: #494747;
+
+.menu {
+    background-color: #665e5e;
     list-style: none;   
     margin: 0px;
-    padding: 0px; 
-    width: 97%;   
+    padding: 0px;   
 }
 
-#menu ul li {
+.menu ul li {
     display: inline;    
 }
 
-#menu ul li a{
-    border-radius: 20px;
+.menu ul li a{
+    border-radius: 10px;
     display: inline-block;  
     padding: 15px;     
 
@@ -73,7 +112,7 @@ p {
     text-decoration: none;    
 }
 
-#menu ul li a:hover {
+.menu ul li a:hover {
     border-bottom: 3px solid #081352a2;
     background-color: #d6d6d6;
     color: #6d6d6d;    
