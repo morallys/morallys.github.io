@@ -64,13 +64,14 @@ header h1 {
     display: inline-block;
     float: right;
     padding: 0 px 50px;
-    max-width: 50%;
-    text-align: justify;    
+    max-width: 50%;    
 }
 
 p.main-rigth {
     margin-top: 50px;
     font-size: 100px;
+}
+.main-right p {
     text-align: justify;
 }
 
@@ -110,7 +111,8 @@ p.main-rigth {
 }
 
 .network {
-    background-color: rgb(29, 27, 27);  
+    background-color: rgb(58 52 52);
+    border-radius: 15px;
 }
 
 .network h3 {
