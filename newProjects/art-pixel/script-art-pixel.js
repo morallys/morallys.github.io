@@ -11,10 +11,10 @@ let colorTabela = 'black';
 function defaultSquare(boardStyle) {
   const square = boardStyle;
   square.style.border = '1px solid black';
-  square.style.width = '40px';
-  square.style.height = '40px';
+  square.style.width = '10px';
+  square.style.height = '10px';
   square.style.margin = '1px';
-  square.style.padding = '15px';
+  square.style.padding = '10px';
   square.style.display = 'inline-block';
   square.style.backgroundColor = 'white';
 
@@ -78,8 +78,8 @@ function boardInput() {
   const newBoardInput = document.createElement('input');
   newBoardInput.id = 'board-size';
   newBoardInput.min = 1;
-  newBoardInput.max = 50;
-  newBoardInput.placeholder = 'Insira aqui um valor entre 5 e 50';
+  newBoardInput.max = 30;
+  newBoardInput.placeholder = 'Insira aqui um valor entre 5 e 30';
   newBoardInput.type = 'number';
 
   btnAndInput.appendChild(newBoardInput);
@@ -94,7 +94,7 @@ boardInput();
 function valueBoardBtn() {
   const generateBoard = document.createElement('div');
   generateBoard.id = 'generate-board';
-  btnAndInput.appendChild(generateBoard).innerText = 'VQV';
+  btnAndInput.appendChild(generateBoard).innerText = 'Alterar';
 }
 
 valueBoardBtn();
@@ -163,14 +163,14 @@ valueBtnBoard.addEventListener('click', () => {
   newUserCount = document.querySelector('#board-size').value;
 
   if (newUserCount === '' || newUserCount === 0) {
-    alert('Board inválido!');
+    alert('Valor inválido!');
   } else if (newUserCount < 5) {
     // alert('Valor é menor que 5');
     newUserCount = 5;
     eventNewBoard();
-  } else if (newUserCount > 50) {
+  } else if (newUserCount > 30) {
     // alert('Valor é maior que 50');
-    newUserCount = 50;
+    newUserCount = 30;
     eventNewBoard();
   } else {
     newUserCount = parseInt(newUserCount, 10);
