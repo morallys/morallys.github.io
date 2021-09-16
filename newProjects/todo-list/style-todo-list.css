@@ -1,0 +1,118 @@
+body {
+  background-color: rgba(54, 46, 46, 0.87);
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+  text-align: center;
+  padding: 25px;
+  color: goldenrod;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: goldenrod;
+  padding: 30px;
+}
+
+#selected {
+  background-color: rgb(64,173,64);
+  width: 89%;
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+
+#funcionamento {
+  font-size: 8px;
+}
+
+button {  
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Comfortaa', cursive;
+  padding: 5px;
+  text-align: center;
+  transition: background 0.4s;
+}
+
+button:hover {
+  border-radius: 15px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.input-area {
+  text-align: center;
+}
+
+#criar-tarefa {
+  background-color: rgb(0,135,207);
+}
+
+#criar-tarefa:hover {
+  background-color: rgb(84, 159, 199);
+}
+
+#remover-selecionado {
+  background-color: rgb(144,25,27);;
+}
+
+#remover-selecionado:hover {
+  background-color: rgb(196, 65, 67);
+}
+
+#mover-cima {
+  background-color: rgb(252,127,0);
+}
+
+#mover-cima:hover {
+  background-color: rgb(221, 80, 14);
+}
+
+#mover-baixo {
+  background-color: rgb(252,127,0);
+}
+
+#mover-baixo:hover {
+  background-color: rgb(221, 80, 14);
+}
+
+#remover-finalizados {
+  background-color: rgb(0,135,207);
+}
+
+#remover-finalizados:hover {
+  background-color: rgb(199, 90, 90);
+}
+
+#apaga-tudo {
+  background-color: rgb(144,25,27);
+}
+
+#apaga-tudo:hover {
+  background-color: rgb(196, 65, 67);
+}
+
+#salvar-tarefas {
+  background-color: rgb(64,173,64);
+}
+
+#salvar-tarefas:hover {
+  background-color: rgb(37, 117, 37);
+}
