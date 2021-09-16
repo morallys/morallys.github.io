@@ -238,3 +238,25 @@ clear.addEventListener('click', () => {
     pixelBox[index].style.backgroundColor = 'white';
   }
 });
+
+// ideia da borracha
+
+const eraserPixel = document.getElementById...
+
+function insertEventEraser() {
+  for (let index = 0; index < pixelBox.length; index += 1) {
+    pixelBox[index].addEventListener('click', () => {
+      pixelBox[index].style.backgroundColor = 'white';
+    });
+  }
+}
+
+// botão borracha
+
+function eraserBtn() {
+  const generateBoard = document.createElement('div');
+  generateBoard.id = 'generate-board';
+  btnAndInput.appendChild(generateBoard).innerText = 'VQV';
+}
+
+eraserBtn();
