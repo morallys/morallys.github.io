@@ -164,7 +164,6 @@ function moveTask() {
 
 moveTask();
 
-// Conversei com o colega Matheus Nugas sobre a solução abaixo
 // Ao clicar no botão de salvar a lista, é salvo no localStorage toda a lista criada, com innerHTML.
 
 function setList() {

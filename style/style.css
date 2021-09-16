@@ -56,12 +56,17 @@ header h1 {
   width: 50%;
 }
 
-
 .main-rigth {
   display: inline-block;
   float: right;
   padding: 0 px 50px;
   max-width: 50%;
+}
+
+
+.article-content {
+  text-align: justify;
+  margin-right: auto;
 }
 
 p.main-rigth {
