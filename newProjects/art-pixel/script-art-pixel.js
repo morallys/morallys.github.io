@@ -1,4 +1,3 @@
-// const btnAndInput = document.querySelector('.main-content');
 const btnAndInput = document.querySelector('.btnAndInput');
 const divColorClass = document.getElementsByClassName('color');
 const pixelBox = document.getElementsByClassName('pixel');
@@ -123,10 +122,6 @@ function mountBoard(numberBoard) {
       sectionBoardPixel.appendChild(divPixel);
     }
   }
-
-  // for (let indexX = 0; indexX < numberBoard; indexX += 1) {
-
-  // }
 }
 
 // exclui o quadro
@@ -240,7 +235,7 @@ clear.addEventListener('click', () => {
 });
 
 // ideia da borracha
-
+/*
 const eraserPixel = document.getElementById...
 
 function insertEventEraser() {
@@ -259,4 +254,4 @@ function eraserBtn() {
   btnAndInput.appendChild(generateBoard).innerText = 'VQV';
 }
 
-eraserBtn();
+eraserBtn();*/
