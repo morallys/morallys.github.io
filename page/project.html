@@ -18,7 +18,7 @@
 
 <!-- Botão voltar -->
 
-<div>
+<div class="btn-voltar">
   <ul class="nav nav-pills">
     <li class="nav-item">
       <a class="nav-link active" aria-current="page" href="/index.html">Voltar</a>
@@ -42,12 +42,14 @@
         </li>
       </ul>
     </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Front-end</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="/newProjects/solar-system/solar-system.html">Solar System</a>
+        </li>
+      </ul>
+    </li>
   </ul>
 </div>
 
-<script>
-var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
-  var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
-    return new bootstrap.Dropdown(dropdownToggleEl)
-  })
-</script>
+<script src="/script/script.js"></script>
