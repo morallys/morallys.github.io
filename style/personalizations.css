@@ -86,3 +86,7 @@ footer .img-footer:hover {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.display-2 {
+  margin-bottom: 50px;
+}
